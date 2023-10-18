@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>둘러보기</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="home-button">홈</a>
+        <a href="login.html" class="login-button">로그인</a>
+    </nav>
+    
+    <header>
+        <h1>둘러보기</h1>
+    </header>
+    <main>
+        <table>
+            <tbody>
+                <tr>
+                    <th>스킨케어</th>
+                    <td>클렌징</td>
+                    <td>기초케어</td>
+                    <td>선케어</td>
+
+                </tr>
+                <tr>
+                    <th>헤어/바디</th>
+                    <td>샴푸/린스</td>
+                    <td>바디 케어</td>
+                    <td>   </td>
+
+                </tr>
+                <tr>
+                    <th>메이크업</th>
+                    <td>피부</td>
+                    <td>립&아이</td>
+                    <td>기타</td>
+                </tr>
+                <tr>
+                    <th>생활용품</th>
+                    <td>주방</td>
+                    <td>세탁</td>
+                    <td>기타</td>
+                </tr>
+                <tr>
+                    <th>여성용품</th>
+                    <td>생리대</td>
+                    <td>생리컵</td>
+                    <td>  </td>
+
+                </tr>
+                <tr>
+                    <th>패션/잡화</th>
+                    <td>옷</td>
+                    <td>가방/신발</td>
+                    <td>기타</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <section id="maincontents">
+        <div id="skincare">
+            <h3>skincare</h3>
+            <div class="main_item">
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="상품상세페이지주소" onclick="링크를 클릭했을 때 실행할 동작 자바스크립트 명">
+                            <img src="이미지주소" alt="대체텍스트">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">상품 이름</p>
+                        <p class="price">37,000원</p>
+                    </div>
+                </li>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="상품상세페이지주소" onclick="링크를 클릭했을 때 실행할 동작 자바스크립트 명">
+                            <img src="이미지주소" alt="대체텍스트">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">상품 이름</p>
+                        <p class="price">37,000원</p>
+                    </div>
+                </li>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="상품상세페이지주소" onclick="링크를 클릭했을 때 실행할 동작 자바스크립트 명">
+                            <img src="이미지주소" alt="대체텍스트">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">상품 이름</p>
+                        <p class="price">37,000원</p>
+                    </div>
+                </li>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="상품상세페이지주소" onclick="링크를 클릭했을 때 실행할 동작 자바스크립트 명">
+                            <img src="이미지주소" alt="대체텍스트">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">상품 이름</p>
+                        <p class="price">37,000원</p>
+                    </div>
+                </li>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="상품상세페이지주소" onclick="링크를 클릭했을 때 실행할 동작 자바스크립트 명">
+                            <img src="이미지주소" alt="대체텍스트">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">상품 이름</p>
+                        <p class="price">37,000원</p>
+                    </div>
+                </li>
+
+            </div>
+        </div>
+        <div id="hairbody">
+            <!-- 브랜드 카테고리 -->
+            <div class="brand_category_box">
+                <h3>Hair/Body</h3>
+                <input type="hidden" name="brand_kind" value="brand_name">
+                <div class="menu" id="brand_tab">
+                    <a href="javascript:void(0)" class="active" onclick="Change_Brand_Tab(this,'donggubat'); return false;">동구밭</a>
+                    <a href="javascript:void(0)" onclick="Change_Brand_Tab(this,'mamaforest'); return false;">마마포레스트</a>
+                    <a href="javascript:void(0)" onclick="Change_Brand_Tab(this,'moreformore'); return false;">모어포모레</a>
+                    <a href="javascript:void(0)" onclick="Change_Brand_Tab(this,'samcraft'); return false;">샘크래프트</a>
+                </div>
+            </div>
+            <!-- 동구밭 -->
+            <div class="main_item" id="donggubat_area" style="display: block">
+                <ul>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="https://www.donggubat.co.kr/goods/goods_view.php?goodsNo=1000000172&mtn=7%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%83%81%ED%92%88%5E%7C%5En">
+                            <img src="images/동구밭/올바른 샴푸바 건성용.png" alt="동구밭 올바른 샵푸바 건성용 사진">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">동구밭 올바른 샵푸바 건성용</p>
+                        <p class="price">9,500원</p>
+                    </div>
+                </li>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="https://www.donggubat.co.kr/goods/goods_view.php?goodsNo=1000000010&mtn=7%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%83%81%ED%92%88%5E%7C%5En">
+                            <img src="images/동구밭/올바른 샴푸바 중건성용.png" alt="동구밭 올바른 샵푸바 중건성용 사진">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">동구밭 올바른 샵푸바 중건성용</p>
+                        <p class="price">9,500원</p>
+                    </div>
+                </li>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="https://www.donggubat.co.kr/goods/goods_view.php?goodsNo=1000000011&mtn=7%5E%7C%5E%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%83%81%ED%92%88%5E%7C%5En">
+                            <img src="images/동구밭/올바른 샴푸바 지성용.pn" alt="동구밭 올바른 샵푸바 지성용 사진">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">동구밭 올바른 샵푸바 지성용</p>
+                        <p class="price">9,500원</p>
+                    </div>
+                </li>
+                </ul>
+            </div>
+            <!-- 마마포레스트 -->
+            <div class="main_item" id="mamaforest_area" style="display: none">
+                <ul>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="상품상세페이지주소" onclick="링크를 클릭했을 때 실행할 동작 자바스크립트 명">
+                            <img src="이미지주소" alt="대체텍스트">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">상품 이름</p>
+                        <p class="price">37,000원</p>
+                    </div>
+                </li>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="상품상세페이지주소" onclick="링크를 클릭했을 때 실행할 동작 자바스크립트 명">
+                            <img src="이미지주소" alt="대체텍스트">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">상품 이름</p>
+                        <p class="price">37,000원</p>
+                    </div>
+                </li>
+                </ul>
+            </div>
+            <!-- 모어포모레 -->
+            <div class="main_item" id="moreformore_area" style="display: none">
+                <ul>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="상품상세페이지주소" onclick="링크를 클릭했을 때 실행할 동작 자바스크립트 명">
+                            <img src="이미지주소" alt="대체텍스트">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">상품 이름</p>
+                        <p class="price">37,000원</p>
+                    </div>
+                </li>
+                </ul>
+            </div>
+            <!-- 샘크래프트 -->
+            <div class="main_item" id="samcraft_area" style="display: none">
+                <ul>
+                <li class="list_box">
+                    <div class="list_img">
+                        <a href="상품상세페이지주소" onclick="링크를 클릭했을 때 실행할 동작 자바스크립트 명">
+                            <img src="이미지주소" alt="대체텍스트">
+                        </a>
+                    </div>
+                    <div class="list_info">
+                        <p class="productname">상품 이름</p>
+                        <p class="price">37,000원</p>
+                    </div>
+                </li>
+                </ul>
+            </div>
+            <script type="text/javascript">//브랜드 스냅 셔플 RandomPrintSnap();</script>
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>Hi All, Explore <a href="instagram.com/re_all_sky">re_all_sky/</a> for learn more.</p>
+        <a href="contact.html" class="contact-button">문의하기</a>
+    </footer>
+</body>
+</html>
